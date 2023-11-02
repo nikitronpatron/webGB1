@@ -2,27 +2,73 @@ h1 {
     color: blueviolet;
     font-size: 70px;
 }
-.title {
-    font-size: 50px;
-    color: aqua;
+
+a {
+    text-decoration: none;
 }
+
+.main_links {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.h2_class {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80p
+}
+
 .text {
     color: aquamarine;
     background-color: blueviolet;
 }
+
 .images_log {
     width: 50px;
     height: 50px;
 }
-.links, .icons {
+
+.links,
+.icons {
     width: 30px;
     height: 30px;
+}
+.box_wrapper {
+    display: flex;
+}
+.wrapper_left {
+    display: flex;
+    flex-direction: column;
 }
 .food_name {
     font-size: 50px;
     color: cadetblue;
 }
+
 .food_description {
     font-size: 20px;
     color: cornflowerblue;
+}
+
+.food_image {
+    width: 300px;
+    height: 420px;
 }
